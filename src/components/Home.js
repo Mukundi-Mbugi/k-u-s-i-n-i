@@ -1,17 +1,15 @@
-import React from 'react'
-import {Container, Navbar} from 'react-bootstrap'
+import React from "react";
+import CarouselMain from "./CarouselMain";
+import NavbarHead from "./NavbarHead";
+
 
 function Home() {
   return (
     <div>
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-            <Container>
-                <Navbar.Brand href="#home">K U S I N I</Navbar.Brand>
-            </Container>
-
-        </Navbar>
+      <NavbarHead />
+      <CarouselMain />
     </div>
-  )
+  );
 }
 
-export default Home
+export default Home;
